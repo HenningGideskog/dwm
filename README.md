@@ -7,7 +7,8 @@ Linux.
 
 Install som prerequisites:
 
-    pacman -Syy xorg xorg-xinit ttf-fira-code pcmanfm slock openssh git feh
+    pacman -Syy xorg xorg-xinit ttf-fira-code pcmanfm slock openssh feh gcc make
+    kitty dmenu
 
 Next, build and install DWM:
 
