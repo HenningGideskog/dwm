@@ -34,7 +34,7 @@ fi
 
 #### Henning Config
 
-feh --bg-scale $HOME/.wallpaper.png
+feh --no-fehbg --bg-scale $HOME/.wallpaper.png
 
 eval $(ssh-agent)
 
