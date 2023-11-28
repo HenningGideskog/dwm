@@ -5,7 +5,14 @@ Linux.
 
 ## Installation
 
-Install the standard suite of packages that I use...
+Install som prerequisites:
 
-    pacman -Syy xorg xorg-xinit ttf-fira-code pcmanfm slock
+    pacman -Syy xorg xorg-xinit ttf-fira-code pcmanfm slock openssh git feh
 
+Next, build and install DWM:
+
+    sudo make install
+
+Lastly to install the included wallpaper, xinitrc and xorg keyboard config file:
+
+    ./install
