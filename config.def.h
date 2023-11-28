@@ -8,10 +8,10 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Fira Code:size=12" };
 static const char dmenufont[]       = "Fira Code:size=12";
-static const char col_bg[]          = "#282828";
-static const char col_bg_light[]    = "#504945";
-static const char col_fg[]          = "#ebdbb2";
-static const char col_hl[]          = "#d79221";
+static const char col_bg[]          = "#282a36";
+static const char col_bg_light[]    = "#44475a";
+static const char col_fg[]          = "#f8f8f2";
+static const char col_hl[]          = "#bd93f9";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_fg, col_bg_light, col_bg_light },
