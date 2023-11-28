@@ -2038,10 +2038,10 @@ updatestatus(void)
 void
 updatetitle(Client *c)
 {
-	if (!gettextprop(c->win, netatom[NetWMName], c->name, sizeof c->name))
-		gettextprop(c->win, XA_WM_NAME, c->name, sizeof c->name);
-	if (c->name[0] == '\0') /* hack to mark broken clients */
-		strcpy(c->name, broken);
+	//if (!gettextprop(c->win, netatom[NetWMName], c->name, sizeof c->name))
+		//gettextprop(c->win, XA_WM_NAME, c->name, sizeof c->name);
+	//if (c->name[0] == '\0') /* hack to mark broken clients */
+		//strcpy(c->name, broken);
 }
 
 void
