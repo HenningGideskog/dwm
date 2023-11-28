@@ -45,7 +45,7 @@ up_time() {
         uptime -p | sed -e s/up/Up:/ -e s/\ minute*./m/ -e s/\ hour*./h/ -e s/\ day*./d/
 }
 
-while xsetroot -name "$(up_time) | $(date +"W %V | %Y-%m-%d | %H:%M:%S ")"
+while xsetroot -name "$(up_time) | $(date +"V %V | %Y-%m-%d | %H:%M:%S ")"
 do
 	sleep 1
 done &
