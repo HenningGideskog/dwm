@@ -15,4 +15,4 @@ Next, build and install DWM:
 
 Lastly to install the included wallpaper, xinitrc and xorg keyboard config file:
 
-    ./install
+    ./install.sh
